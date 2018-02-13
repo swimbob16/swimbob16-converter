@@ -18,6 +18,8 @@ When you open this project in VS Code, it will prompt you to extend a bunch of e
 
 Those are just my recommendations. Also, in that same folder, _settings.json_ should automatically configure your VS Code to follow my recommendations. You can always change this later.
 
+Also, you should install the fonts in the font folder. I have included for Windoze, but you can get whatever ones you need [here.](https://github.com/tonsky/FiraCode)
+
 This is great for beginners, who just want to get up and running. You will want something more robust and thorough for production though, eventually.
 
 Other than that as is said, "Happy Coding!"...except coding is not 'happy'...not until stuff starts working properly. It usually really sucks in the beginning...hang in there!
