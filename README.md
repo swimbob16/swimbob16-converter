@@ -14,7 +14,9 @@ Note that this setup assumes you want to use [**Visual Studio Code**](https://co
 When set up properly, among other features, you will have linting within VS Code that will cover your HTML, CSS and JS. It is configured to follow industry-standard best practices (not just my opinion).
 It features [ESLint](https://eslint.org/), [Stylelint](https://github.com/stylelint/stylelint), and [Prettier](https://prettier.io/), among other things.
 
-When you open this project in VS Code, it will prompt you to extend a bunch of extensions. Those are just my recommendations. Also, in that same folder, _settings.json_ should automatically configure your VS Code to follow my recommendations. You can always change this later
+When you open this project in VS Code, it will prompt you to extend a bunch of extensions. Note that you will probably need to exit VS Code and come back in, and that it may prompt you a couple of times.
+
+Those are just my recommendations. Also, in that same folder, _settings.json_ should automatically configure your VS Code to follow my recommendations. You can always change this later.
 
 This is great for beginners, who just want to get up and running. You will want something more robust and thorough for production though, eventually.
 
