@@ -1,0 +1,28 @@
+{
+  "editor.detectIndentation": false,
+  "editor.fontFamily": "Fira Code",
+  "editor.formatOnSave": true,
+  "editor.lineHeight": 24,
+  "editor.fontLigatures": true,
+  "editor.scrollBeyondLastLine": false,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 120,
+  "editor.wrappingIndent": "indent",
+  "eslint.autoFixOnSave": true,
+  "eslint.validate": [
+    "javascript",
+  ],
+  "explorer.confirmDelete": false,
+  "files.eol": "\n",
+  "stylelint.enable": true,
+  "css.validate": false,
+  "scss.validate": false,
+  "workbench.colorTheme": "Material Theme",
+  "files.autoSave": "onWindowChange",
+  "explorer.confirmDragAndDrop": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.minimap.enabled": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "extensions.autoUpdate": true
+}

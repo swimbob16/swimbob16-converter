@@ -1,0 +1,26 @@
+{
+  "name": "cis177-starter",
+  "version": "1.0.0",
+  "description": "Boilerplate for working on class projects in JS.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "eslint",
+    "prettier"
+  ],
+  "author": "Manav Misra",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.17.0",
+    "eslint-config-google": "^0.9.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "htmlhint": "^0.9.13",
+    "prettier": "^1.10.2",
+    "stylelint": "^8.4.0",
+    "stylelint-config-standard": "^18.0.0"
+  }
+}
