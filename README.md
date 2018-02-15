@@ -12,7 +12,16 @@ Other than that, navigate to this folder in your commmand prompt. Type ```npm in
 Note that this setup assumes you want to use [**Visual Studio Code**](https://code.visualstudio.com/) - you probably should as its pretty much the best code-editor on _this_ planet, at least.
 
 When set up properly, among other features, you will have linting within VS Code that will cover your HTML, CSS and JS. It is configured to follow industry-standard best practices (not just my opinion).
+
 It features [ESLint](https://eslint.org/), [Stylelint](https://github.com/stylelint/stylelint), and [Prettier](https://prettier.io/), among other things.
+
+Speaking of [Prettier](https://prettier.io/), there is at least 1 setting inside of _.eslintrc_ that you may want to change:
+
+```javascript
+"printWidth": 100,
+```
+
+This determines the 'max width' of each line of text. Depending on your screen size, you may want to decrease this to ```80``` (for smaller screen) or ```120``` for larger screens.
 
 When you open this project in VS Code, it will prompt you to extend a bunch of extensions. Note that you will probably need to exit VS Code and come back in, and that it may prompt you a couple of times.
 
