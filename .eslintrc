@@ -1,11 +1,6 @@
 {
-  "extends": [
-    "google",
-    "prettier"
-  ],
-  "plugins": [
-    "prettier"
-  ],
+  "extends": ["prettier", "google"],
+  "plugins": ["prettier"],
   "parserOptions": {
     "ecmaVersion": 6
   },
@@ -13,10 +8,11 @@
     "browser": true
   },
   "rules": {
-    "prettier/prettier": ["error",
-    {
-      "printWidth": 100,
-      "singleQuote": true
-    }]
+    "prettier/prettier": [
+      "error",
+      {
+        "printWidth": 100
+      }
+    ]
   }
 }
