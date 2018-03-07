@@ -1,5 +1,5 @@
 # cis-177
-Boilerplate for entry-level SWIC Web Development/JavaScript class
+Boilerplate for entry-level Web Development/JavaScript class at Southwestern Illinois College
 
 You will need to [install Node for Windows](http://blog.teamtreehouse.com/install-node-js-npm-windows)
 Or, [for Mac OS X](http://blog.teamtreehouse.com/install-node-js-npm-mac)

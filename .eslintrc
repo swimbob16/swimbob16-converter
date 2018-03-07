@@ -11,10 +11,12 @@
     "es6": true
   },
   "rules": {
-    "prettier/prettier": ["error",
-    {
-      "printWidth": 100,
-      "singleQuote": true
-    }]
+    "prettier/prettier": [
+      "error",
+      {
+        "printWidth": 100,
+        "singleQuote": true
+      }
+    ]
   }
 }
