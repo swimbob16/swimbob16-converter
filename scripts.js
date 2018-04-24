@@ -6,7 +6,7 @@ const form = document.querySelector("form");
  * @param {Number} userInput
  * @returns {Number} - return the converted measurement
  */
-function convert() {
+function dynesToNewtons() {
   /* TODO: Update the name of this function to something appropriate (e.g. feetToInches...) */
 }
 
