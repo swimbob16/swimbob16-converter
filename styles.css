@@ -1,0 +1,22 @@
+h1 {
+  text-align: center;
+  color: lightcoral;
+}
+
+body {
+  background-color: lightskyblue;
+}
+
+form {
+  text-align: center;
+}
+
+label {
+  color: lightyellow;
+}
+
+p {
+  text-align: center;
+  font-size: 2em;
+  color: lightgreen;
+}

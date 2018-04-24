@@ -6,18 +6,25 @@ const form = document.querySelector("form");
  * @param {Number} userInput
  * @returns {Number} - return the converted measurement
  */
-function dynesToNewtons() {
+function dynesToNewtons(userInput) {
   /* TODO: Update the name of this function to something appropriate (e.g. feetToInches...) */
+  return Math.pow(userInput, 5);
 }
 
 /** Capture the user's input value on submit and run it through the convert fxn.
  */
 function submitHandler() {
-  /*
-    1. Grab the VALUE PROPERY of: document.querySelector("#user-input")...(finish this code)...
-    2. Pass that value into convert() fxn. to get back the converted value.
-    3. Give the user the output by updating the TEXTVALUE PROPERTY of: document.querySelector("#user-output")
-  */
+  // Grab the input text box value
+  const userInput = document.querySelector("#user-input").value;
+
+  // Convert input value using converter function
+  const userOutput = dynesToNewtons(userInput);
+
+  // Grab the p html tag
+  const p = document.querySelector("#user-output");
+
+  // Output conversion statement to p tag
+  p.textContent = `${userInput.toLocaleString()} dyne(s) is ${userOutput.toLocaleString()} Newton(s)!`;
 }
 
 // Add a listener to the form
