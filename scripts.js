@@ -1,31 +1,32 @@
 // Grab the form and assign it to variable
-const form = document.querySelector("form");
+const button = document.querySelector("#convert-button");
+
+const userInputField = document.querySelector("#user-input");
 
 /**
  * Convert a measurement from user input.
- * @param {Number} userInput
+ * @param {Number} newtons
  * @returns {Number} - return the converted measurement
  */
-function newtonsToDynes(userInput) {
-  /* TODO: Update the name of this function to something appropriate (e.g. feetToInches...) */
-  return userInput * Math.pow(10, 5);
+function newtonsToDynes(newtons) {
+  return newtons * Math.pow(10, 5); // Newton to dyne conversion
 }
 
 /** Capture the user's input value on submit and run it through the convert fxn.
  */
-function submitHandler() {
+function clickHandler() {
   // Grab the input text box value
-  const userInput = document.querySelector("#user-input").value;
+  const newtons = document.querySelector("#user-input").value;
 
   // Convert input value using converter function
-  const userOutput = newtonsToDynes(userInput);
-
-  // Grab the p html tag
-  const p = document.querySelector("#user-output");
+  const dynes = newtonsToDynes(newtons);
 
   // Output conversion statement to p tag
-  p.textContent = `${userInput.toLocaleString()} newtons is equal to ${userOutput.toLocaleString()} dynes!`;
+  document.querySelector(
+    "#user-output"
+  ).textContent = `${newtons.toLocaleString()} newtons is equal to ${dynes.toLocaleString()} dynes!`;
 }
 
-// Add a listener to the form
-form.addEventListener("submit", submitHandler);
+// Add a listener to the button
+button.addEventListener("click", clickHandler);
+userInputField.addEventListener("keypress", clickHandler);
