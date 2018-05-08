@@ -29,4 +29,4 @@ function clickHandler() {
 
 // Add a listener to the button
 button.addEventListener("click", clickHandler);
-userInputField.addEventListener("keypress", clickHandler);
+userInputField.addEventListener("keyup", clickHandler);
